@@ -10,6 +10,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	background: #f5f7ff;
 	color: #222;
+	overflow-x: hidden;
 }
 
 /* HEADER */
