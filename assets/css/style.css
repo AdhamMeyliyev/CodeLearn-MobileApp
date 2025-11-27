@@ -13,6 +13,10 @@ body {
 	overflow-x: hidden;
 }
 
+html{
+	overflow-x: hidden;
+}
+
 /* HEADER */
 .header {
 	background: #fff;
