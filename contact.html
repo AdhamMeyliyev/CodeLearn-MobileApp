@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt – CodeLearn</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+		<script defer src="./assets/js/main.js"></script>
 </head>
 <body>
 
     <!-- HEADER -->
     <header class="header">
-        <h1 class="logo">CodeLearn</h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <!-- <a href="news.html">News</a> -->
-            <a href="./contact.html" class="active-link">Contact</a>
-        </nav>
-    </header>
+		<h1 class="logo"> <a style="text-decoration: none;" href="./index.html">CodeLearn</a></h1>
+		<div class="hamburger" id="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<nav class="nav" id="navMenu">
+			<a href="./index.html">Home</a>
+			<a href="./about.html" >About</a>
+			<a href="./courses.html" >Courses</a>
+			<a href="./contact.html" class="active-link">Contact</a>
+		</nav>
+	</header>
 
     <!-- HERO SECTION -->
     <section class="contact-hero">

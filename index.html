@@ -7,18 +7,25 @@
 	<title>Dasturlash Kurslari – Mobil App</title>
 	<link rel="stylesheet" href="./assets/css/style.css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<script defer src="./assets/js/main.js"></script>
 </head>
 
 <body>
 
 	<!-- HEADER -->
 	<header class="header">
-		<h1 class="logo">CodeLearn</h1>
-		<nav>
+		<h1 class="logo"> <a style="text-decoration: none;" href="./index.html">CodeLearn</a></h1>
+		<div class="hamburger" id="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<nav class="nav" id="navMenu">
 			<a href="./index.html" class="active-link">Home</a>
-			<a href="./about.html">About</a>
+			<a href="./about.html" >About</a>
+			<a href="./courses.html" >Courses</a>
 			<a href="./contact.html">Contact</a>
-			<!-- <a href="./news.html">News</a> -->
 		</nav>
 	</header>
 
@@ -26,7 +33,7 @@
 	<section class="hero">
 		<h2>Dasturlash tillarini o‘rganing</h2>
 		<p>HTML, CSS, JavaScript va boshqa ko‘plab kurslar siz uchun!</p>
-		<a href="#courses" class="btn-primary">Kurslarni Ko‘rish</a>
+		<a href="./courses.html" class="btn-primary">Kurslarni Ko‘rish</a>
 	</section>
 
 	<!-- CATEGORIES -->
@@ -58,19 +65,19 @@
 		<div class="course-card">
 			<h3>HTML Boshlang‘ich Kurs</h3>
 			<p>HTML asoslari va sayt tuzilmasi bilan tanishing.</p>
-			<a href="course-html.html" class="btn-secondary">Darsga O‘tish</a>
+			<a href="./course_1.html" class="btn-secondary">Darsga O‘tish</a>
 		</div>
 
 		<div class="course-card">
 			<h3>CSS Asoslari</h3>
 			<p>Saytingizni chiroyli qilish uchun kerak bo‘lgan texnika.</p>
-			<a href="course-css.html" class="btn-secondary">Darsga O‘tish</a>
+			<a href="./course_1.html" class="btn-secondary">Darsga O‘tish</a>
 		</div>
 
 		<div class="course-card">
 			<h3>JavaScript Fundamental</h3>
 			<p>Dasturlashning mantiqiy tomoni bilan tanishing.</p>
-			<a href="course-js.html" class="btn-secondary">Darsga O‘tish</a>
+			<a href="./course_1.html" class="btn-secondary">Darsga O‘tish</a>
 		</div>
 	</section>
 
